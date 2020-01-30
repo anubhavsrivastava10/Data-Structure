@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// Performed on Sorted Data
 int JS(int arr[], int x, int n)
 {
     int step = sqrt(n);
