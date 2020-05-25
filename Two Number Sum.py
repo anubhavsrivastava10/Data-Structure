@@ -59,9 +59,9 @@ def finding_pair(arr,targetSum):
             count+=1
             left+=1
             right-=1
-        elif arr[left]+arr[right]>=targetSum:
+        elif arr[left]+arr[right]>targetSum:
             right-=1
-        elif arr[left]+arr[right]<=targetSum:
+        elif arr[left]+arr[right]<targetSum:
             left+=1
     return str(count)
 
